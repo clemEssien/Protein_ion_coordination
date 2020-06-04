@@ -1,0 +1,233 @@
+REMARK 620 1 ASP A 292   OD2                                                    
+-ASP_A_292REMARK 620 2 GLU A 217   OE1  86.2                                              
+-GLU_A_217REMARK 620 3 XLS A 397   O2   81.7  81.1                                        
+-XLS_A_397REMARK 620 4 XLS A 397   O4   86.0 161.8  81.5                                  
+-XLS_A_397REMARK 620 5 GLU A 181   OE2 166.0  96.5  85.1  87.3                            
+-GLU_A_181REMARK 620 6 ASP A 245   OD2  94.2 102.5 174.4  94.5  98.6                      
+-ASP_A_245REMARK 620 1 GLU A 217   OE2                                                    
+-GLU_A_217REMARK 620 2 HIS A 220   NE2  70.8                                              
+-HIS_A_220REMARK 620 3 ASP A 257   OD1  95.0 165.6                                        
+-ASP_A_257REMARK 620 4 HOH A 530   O   101.1 104.4  76.0                                  
+-HOH_A_530REMARK 620 5 ASP A 255   OD2 167.8 102.9  91.4  90.6                            
+-ASP_A_255REMARK 620 6 ASP A 255   OD1 116.6 108.7  78.8 135.9  54.5                      
+-ASP_A_255REMARK 620 1 XLS B 397   O4                                                     
+-XLS_B_397REMARK 620 2 GLU B 181   OE2  85.1                                              
+-GLU_B_181REMARK 620 3 ASP B 245   OD2  93.4  89.0                                        
+-ASP_B_245REMARK 620 4 XLS B 397   O2   81.6  85.9 173.1                                  
+-XLS_B_397REMARK 620 5 ASP B 292   OD2  87.4 167.2 101.9  82.7                            
+-ASP_B_292REMARK 620 6 GLU B 217   OE1 171.4  91.1  94.3  90.4  94.8                      
+-GLU_B_217REMARK 620 1 ASP B 255   OD2                                                    
+-ASP_B_255REMARK 620 2 HOH B 534   O   124.7                                              
+-HOH_B_534REMARK 620 3 GLU B 217   OE2 138.0  96.9                                        
+-GLU_B_217REMARK 620 4 HIS B 220   NE2  86.0 113.4  69.9                                  
+-HIS_B_220REMARK 620 5 ASP B 257   OD1 105.5  73.3  91.4 160.5                            
+-ASP_B_257REMARK 620 1 GLU C 217   OE1                                                    
+-GLU_C_217REMARK 620 2 ASP C 245   OD2 101.3                                              
+-ASP_C_245REMARK 620 3 XLS C 397   O2   89.8 168.3                                        
+-XLS_C_397REMARK 620 4 XLS C 397   O4  165.4  91.9  76.7                                  
+-XLS_C_397REMARK 620 5 ASP C 292   OD2  90.9  90.7  85.4  82.5                            
+-ASP_C_292REMARK 620 6 GLU C 181   OE2  97.2  96.6  85.5  87.4 167.7                      
+-GLU_C_181REMARK 620 1 GLU C 217   OE2                                                    
+-GLU_C_217REMARK 620 2 ASP C 255   OD2 152.8                                              
+-ASP_C_255REMARK 620 3 HOH C 538   O    96.3 110.6                                        
+-HOH_C_538REMARK 620 4 ASP C 257   OD1  95.7  83.5  83.6                                  
+-ASP_C_257REMARK 620 5 HIS C 220   NE2  69.6 105.1 106.9 162.4                            
+-HIS_C_220REMARK 620 1 GLU D 181   OE2                                                    
+-GLU_D_181REMARK 620 2 ASP D 245   OD2  92.1                                              
+-ASP_D_245REMARK 620 3 XLS D 397   O4   80.7  88.8                                        
+-XLS_D_397REMARK 620 4 ASP D 292   OD2 159.6 103.0  85.8                                  
+-ASP_D_292REMARK 620 5 XLS D 397   O2   79.5 166.1  78.9  82.9                            
+-XLS_D_397REMARK 620 6 GLU D 217   OE1  96.8 105.7 165.3  92.3  86.4                      
+-GLU_D_217REMARK 620 1 GLU D 217   OE2                                                    
+-GLU_D_217REMARK 620 2 HIS D 220   NE2  71.7                                              
+-HIS_D_220REMARK 620 3 ASP D 255   OD1 112.4 111.6                                        
+-ASP_D_255REMARK 620 4 ASP D 255   OD2 144.1  84.0  52.7                                  
+-ASP_D_255REMARK 620 5 HOH D 549   O   100.2 104.6 137.0 111.4                            
+-HOH_D_549REMARK 620 6 ASP D 257   OD1  94.6 165.3  68.1 105.7  82.5                      
+-ASP_D_257REMARK 620 1 ASP A 292   OD2                                                    
+-ASP_A_292REMARK 620 2 GLU A 217   OE1  86.2                                              
+-GLU_A_217REMARK 620 3 XLS A 397   O2   81.7  81.1                                        
+-XLS_A_397REMARK 620 4 XLS A 397   O4   86.0 161.8  81.5                                  
+-XLS_A_397REMARK 620 5 GLU A 181   OE2 166.0  96.5  85.1  87.3                            
+-GLU_A_181REMARK 620 6 ASP A 245   OD2  94.2 102.5 174.4  94.5  98.6                      
+-ASP_A_245REMARK 620 1 GLU A 217   OE2                                                    
+-GLU_A_217REMARK 620 2 HIS A 220   NE2  70.8                                              
+-HIS_A_220REMARK 620 3 ASP A 257   OD1  95.0 165.6                                        
+-ASP_A_257REMARK 620 4 HOH A 530   O   101.1 104.4  76.0                                  
+-HOH_A_530REMARK 620 5 ASP A 255   OD2 167.8 102.9  91.4  90.6                            
+-ASP_A_255REMARK 620 6 ASP A 255   OD1 116.6 108.7  78.8 135.9  54.5                      
+-ASP_A_255REMARK 620 1 XLS B 397   O4                                                     
+-XLS_B_397REMARK 620 2 GLU B 181   OE2  85.1                                              
+-GLU_B_181REMARK 620 3 ASP B 245   OD2  93.4  89.0                                        
+-ASP_B_245REMARK 620 4 XLS B 397   O2   81.6  85.9 173.1                                  
+-XLS_B_397REMARK 620 5 ASP B 292   OD2  87.4 167.2 101.9  82.7                            
+-ASP_B_292REMARK 620 6 GLU B 217   OE1 171.4  91.1  94.3  90.4  94.8                      
+-GLU_B_217REMARK 620 1 ASP B 255   OD2                                                    
+-ASP_B_255REMARK 620 2 HOH B 534   O   124.7                                              
+-HOH_B_534REMARK 620 3 GLU B 217   OE2 138.0  96.9                                        
+-GLU_B_217REMARK 620 4 HIS B 220   NE2  86.0 113.4  69.9                                  
+-HIS_B_220REMARK 620 5 ASP B 257   OD1 105.5  73.3  91.4 160.5                            
+-ASP_B_257REMARK 620 1 GLU C 217   OE1                                                    
+-GLU_C_217REMARK 620 2 ASP C 245   OD2 101.3                                              
+-ASP_C_245REMARK 620 3 XLS C 397   O2   89.8 168.3                                        
+-XLS_C_397REMARK 620 4 XLS C 397   O4  165.4  91.9  76.7                                  
+-XLS_C_397REMARK 620 5 ASP C 292   OD2  90.9  90.7  85.4  82.5                            
+-ASP_C_292REMARK 620 6 GLU C 181   OE2  97.2  96.6  85.5  87.4 167.7                      
+-GLU_C_181REMARK 620 1 GLU C 217   OE2                                                    
+-GLU_C_217REMARK 620 2 ASP C 255   OD2 152.8                                              
+-ASP_C_255REMARK 620 3 HOH C 538   O    96.3 110.6                                        
+-HOH_C_538REMARK 620 4 ASP C 257   OD1  95.7  83.5  83.6                                  
+-ASP_C_257REMARK 620 5 HIS C 220   NE2  69.6 105.1 106.9 162.4                            
+-HIS_C_220REMARK 620 1 GLU D 181   OE2                                                    
+-GLU_D_181REMARK 620 2 ASP D 245   OD2  92.1                                              
+-ASP_D_245REMARK 620 3 XLS D 397   O4   80.7  88.8                                        
+-XLS_D_397REMARK 620 4 ASP D 292   OD2 159.6 103.0  85.8                                  
+-ASP_D_292REMARK 620 5 XLS D 397   O2   79.5 166.1  78.9  82.9                            
+-XLS_D_397REMARK 620 6 GLU D 217   OE1  96.8 105.7 165.3  92.3  86.4                      
+-GLU_D_217REMARK 620 1 GLU D 217   OE2                                                    
+-GLU_D_217REMARK 620 2 HIS D 220   NE2  71.7                                              
+-HIS_D_220REMARK 620 3 ASP D 255   OD1 112.4 111.6                                        
+-ASP_D_255REMARK 620 4 ASP D 255   OD2 144.1  84.0  52.7                                  
+-ASP_D_255REMARK 620 5 HOH D 549   O   100.2 104.6 137.0 111.4                            
+-HOH_D_549REMARK 620 6 ASP D 257   OD1  94.6 165.3  68.1 105.7  82.5                      
+-ASP_D_257REMARK 620 1 ASP A 292   OD2                                                    
+-ASP_A_292REMARK 620 2 GLU A 217   OE1  86.2                                              
+-GLU_A_217REMARK 620 3 XLS A 397   O2   81.7  81.1                                        
+-XLS_A_397REMARK 620 4 XLS A 397   O4   86.0 161.8  81.5                                  
+-XLS_A_397REMARK 620 5 GLU A 181   OE2 166.0  96.5  85.1  87.3                            
+-GLU_A_181REMARK 620 6 ASP A 245   OD2  94.2 102.5 174.4  94.5  98.6                      
+-ASP_A_245REMARK 620 1 GLU A 217   OE2                                                    
+-GLU_A_217REMARK 620 2 HIS A 220   NE2  70.8                                              
+-HIS_A_220REMARK 620 3 ASP A 257   OD1  95.0 165.6                                        
+-ASP_A_257REMARK 620 4 HOH A 530   O   101.1 104.4  76.0                                  
+-HOH_A_530REMARK 620 5 ASP A 255   OD2 167.8 102.9  91.4  90.6                            
+-ASP_A_255REMARK 620 6 ASP A 255   OD1 116.6 108.7  78.8 135.9  54.5                      
+-ASP_A_255REMARK 620 1 XLS B 397   O4                                                     
+-XLS_B_397REMARK 620 2 GLU B 181   OE2  85.1                                              
+-GLU_B_181REMARK 620 3 ASP B 245   OD2  93.4  89.0                                        
+-ASP_B_245REMARK 620 4 XLS B 397   O2   81.6  85.9 173.1                                  
+-XLS_B_397REMARK 620 5 ASP B 292   OD2  87.4 167.2 101.9  82.7                            
+-ASP_B_292REMARK 620 6 GLU B 217   OE1 171.4  91.1  94.3  90.4  94.8                      
+-GLU_B_217REMARK 620 1 ASP B 255   OD2                                                    
+-ASP_B_255REMARK 620 2 HOH B 534   O   124.7                                              
+-HOH_B_534REMARK 620 3 GLU B 217   OE2 138.0  96.9                                        
+-GLU_B_217REMARK 620 4 HIS B 220   NE2  86.0 113.4  69.9                                  
+-HIS_B_220REMARK 620 5 ASP B 257   OD1 105.5  73.3  91.4 160.5                            
+-ASP_B_257REMARK 620 1 GLU C 217   OE1                                                    
+-GLU_C_217REMARK 620 2 ASP C 245   OD2 101.3                                              
+-ASP_C_245REMARK 620 3 XLS C 397   O2   89.8 168.3                                        
+-XLS_C_397REMARK 620 4 XLS C 397   O4  165.4  91.9  76.7                                  
+-XLS_C_397REMARK 620 5 ASP C 292   OD2  90.9  90.7  85.4  82.5                            
+-ASP_C_292REMARK 620 6 GLU C 181   OE2  97.2  96.6  85.5  87.4 167.7                      
+-GLU_C_181REMARK 620 1 GLU C 217   OE2                                                    
+-GLU_C_217REMARK 620 2 ASP C 255   OD2 152.8                                              
+-ASP_C_255REMARK 620 3 HOH C 538   O    96.3 110.6                                        
+-HOH_C_538REMARK 620 4 ASP C 257   OD1  95.7  83.5  83.6                                  
+-ASP_C_257REMARK 620 5 HIS C 220   NE2  69.6 105.1 106.9 162.4                            
+-HIS_C_220REMARK 620 1 GLU D 181   OE2                                                    
+-GLU_D_181REMARK 620 2 ASP D 245   OD2  92.1                                              
+-ASP_D_245REMARK 620 3 XLS D 397   O4   80.7  88.8                                        
+-XLS_D_397REMARK 620 4 ASP D 292   OD2 159.6 103.0  85.8                                  
+-ASP_D_292REMARK 620 5 XLS D 397   O2   79.5 166.1  78.9  82.9                            
+-XLS_D_397REMARK 620 6 GLU D 217   OE1  96.8 105.7 165.3  92.3  86.4                      
+-GLU_D_217REMARK 620 1 GLU D 217   OE2                                                    
+-GLU_D_217REMARK 620 2 HIS D 220   NE2  71.7                                              
+-HIS_D_220REMARK 620 3 ASP D 255   OD1 112.4 111.6                                        
+-ASP_D_255REMARK 620 4 ASP D 255   OD2 144.1  84.0  52.7                                  
+-ASP_D_255REMARK 620 5 HOH D 549   O   100.2 104.6 137.0 111.4                            
+-HOH_D_549REMARK 620 6 ASP D 257   OD1  94.6 165.3  68.1 105.7  82.5                      
+-ASP_D_257REMARK 620 1 ASP A 292   OD2                                                    
+-ASP_A_292REMARK 620 2 GLU A 217   OE1  86.2                                              
+-GLU_A_217REMARK 620 3 XLS A 397   O2   81.7  81.1                                        
+-XLS_A_397REMARK 620 4 XLS A 397   O4   86.0 161.8  81.5                                  
+-XLS_A_397REMARK 620 5 GLU A 181   OE2 166.0  96.5  85.1  87.3                            
+-GLU_A_181REMARK 620 6 ASP A 245   OD2  94.2 102.5 174.4  94.5  98.6                      
+-ASP_A_245REMARK 620 1 GLU A 217   OE2                                                    
+-GLU_A_217REMARK 620 2 HIS A 220   NE2  70.8                                              
+-HIS_A_220REMARK 620 3 ASP A 257   OD1  95.0 165.6                                        
+-ASP_A_257REMARK 620 4 HOH A 530   O   101.1 104.4  76.0                                  
+-HOH_A_530REMARK 620 5 ASP A 255   OD2 167.8 102.9  91.4  90.6                            
+-ASP_A_255REMARK 620 6 ASP A 255   OD1 116.6 108.7  78.8 135.9  54.5                      
+-ASP_A_255REMARK 620 1 XLS B 397   O4                                                     
+-XLS_B_397REMARK 620 2 GLU B 181   OE2  85.1                                              
+-GLU_B_181REMARK 620 3 ASP B 245   OD2  93.4  89.0                                        
+-ASP_B_245REMARK 620 4 XLS B 397   O2   81.6  85.9 173.1                                  
+-XLS_B_397REMARK 620 5 ASP B 292   OD2  87.4 167.2 101.9  82.7                            
+-ASP_B_292REMARK 620 6 GLU B 217   OE1 171.4  91.1  94.3  90.4  94.8                      
+-GLU_B_217REMARK 620 1 ASP B 255   OD2                                                    
+-ASP_B_255REMARK 620 2 HOH B 534   O   124.7                                              
+-HOH_B_534REMARK 620 3 GLU B 217   OE2 138.0  96.9                                        
+-GLU_B_217REMARK 620 4 HIS B 220   NE2  86.0 113.4  69.9                                  
+-HIS_B_220REMARK 620 5 ASP B 257   OD1 105.5  73.3  91.4 160.5                            
+-ASP_B_257REMARK 620 1 GLU C 217   OE1                                                    
+-GLU_C_217REMARK 620 2 ASP C 245   OD2 101.3                                              
+-ASP_C_245REMARK 620 3 XLS C 397   O2   89.8 168.3                                        
+-XLS_C_397REMARK 620 4 XLS C 397   O4  165.4  91.9  76.7                                  
+-XLS_C_397REMARK 620 5 ASP C 292   OD2  90.9  90.7  85.4  82.5                            
+-ASP_C_292REMARK 620 6 GLU C 181   OE2  97.2  96.6  85.5  87.4 167.7                      
+-GLU_C_181REMARK 620 1 GLU C 217   OE2                                                    
+-GLU_C_217REMARK 620 2 ASP C 255   OD2 152.8                                              
+-ASP_C_255REMARK 620 3 HOH C 538   O    96.3 110.6                                        
+-HOH_C_538REMARK 620 4 ASP C 257   OD1  95.7  83.5  83.6                                  
+-ASP_C_257REMARK 620 5 HIS C 220   NE2  69.6 105.1 106.9 162.4                            
+-HIS_C_220REMARK 620 1 GLU D 181   OE2                                                    
+-GLU_D_181REMARK 620 2 ASP D 245   OD2  92.1                                              
+-ASP_D_245REMARK 620 3 XLS D 397   O4   80.7  88.8                                        
+-XLS_D_397REMARK 620 4 ASP D 292   OD2 159.6 103.0  85.8                                  
+-ASP_D_292REMARK 620 5 XLS D 397   O2   79.5 166.1  78.9  82.9                            
+-XLS_D_397REMARK 620 6 GLU D 217   OE1  96.8 105.7 165.3  92.3  86.4                      
+-GLU_D_217REMARK 620 1 GLU D 217   OE2                                                    
+-GLU_D_217REMARK 620 2 HIS D 220   NE2  71.7                                              
+-HIS_D_220REMARK 620 3 ASP D 255   OD1 112.4 111.6                                        
+-ASP_D_255REMARK 620 4 ASP D 255   OD2 144.1  84.0  52.7                                  
+-ASP_D_255REMARK 620 5 HOH D 549   O   100.2 104.6 137.0 111.4                            
+-HOH_D_549REMARK 620 6 ASP D 257   OD1  94.6 165.3  68.1 105.7  82.5                      
+-ASP_D_257REMARK 620 1 ASP A 292   OD2                                                    
+-ASP_A_292REMARK 620 2 GLU A 217   OE1  86.2                                              
+-GLU_A_217REMARK 620 3 XLS A 397   O2   81.7  81.1                                        
+-XLS_A_397REMARK 620 4 XLS A 397   O4   86.0 161.8  81.5                                  
+-XLS_A_397REMARK 620 5 GLU A 181   OE2 166.0  96.5  85.1  87.3                            
+-GLU_A_181REMARK 620 6 ASP A 245   OD2  94.2 102.5 174.4  94.5  98.6                      
+-ASP_A_245REMARK 620 1 GLU A 217   OE2                                                    
+-GLU_A_217REMARK 620 2 HIS A 220   NE2  70.8                                              
+-HIS_A_220REMARK 620 3 ASP A 257   OD1  95.0 165.6                                        
+-ASP_A_257REMARK 620 4 HOH A 530   O   101.1 104.4  76.0                                  
+-HOH_A_530REMARK 620 5 ASP A 255   OD2 167.8 102.9  91.4  90.6                            
+-ASP_A_255REMARK 620 6 ASP A 255   OD1 116.6 108.7  78.8 135.9  54.5                      
+-ASP_A_255REMARK 620 1 XLS B 397   O4                                                     
+-XLS_B_397REMARK 620 2 GLU B 181   OE2  85.1                                              
+-GLU_B_181REMARK 620 3 ASP B 245   OD2  93.4  89.0                                        
+-ASP_B_245REMARK 620 4 XLS B 397   O2   81.6  85.9 173.1                                  
+-XLS_B_397REMARK 620 5 ASP B 292   OD2  87.4 167.2 101.9  82.7                            
+-ASP_B_292REMARK 620 6 GLU B 217   OE1 171.4  91.1  94.3  90.4  94.8                      
+-GLU_B_217REMARK 620 1 ASP B 255   OD2                                                    
+-ASP_B_255REMARK 620 2 HOH B 534   O   124.7                                              
+-HOH_B_534REMARK 620 3 GLU B 217   OE2 138.0  96.9                                        
+-GLU_B_217REMARK 620 4 HIS B 220   NE2  86.0 113.4  69.9                                  
+-HIS_B_220REMARK 620 5 ASP B 257   OD1 105.5  73.3  91.4 160.5                            
+-ASP_B_257REMARK 620 1 GLU C 217   OE1                                                    
+-GLU_C_217REMARK 620 2 ASP C 245   OD2 101.3                                              
+-ASP_C_245REMARK 620 3 XLS C 397   O2   89.8 168.3                                        
+-XLS_C_397REMARK 620 4 XLS C 397   O4  165.4  91.9  76.7                                  
+-XLS_C_397REMARK 620 5 ASP C 292   OD2  90.9  90.7  85.4  82.5                            
+-ASP_C_292REMARK 620 6 GLU C 181   OE2  97.2  96.6  85.5  87.4 167.7                      
+-GLU_C_181REMARK 620 1 GLU C 217   OE2                                                    
+-GLU_C_217REMARK 620 2 ASP C 255   OD2 152.8                                              
+-ASP_C_255REMARK 620 3 HOH C 538   O    96.3 110.6                                        
+-HOH_C_538REMARK 620 4 ASP C 257   OD1  95.7  83.5  83.6                                  
+-ASP_C_257REMARK 620 5 HIS C 220   NE2  69.6 105.1 106.9 162.4                            
+-HIS_C_220REMARK 620 1 GLU D 181   OE2                                                    
+-GLU_D_181REMARK 620 2 ASP D 245   OD2  92.1                                              
+-ASP_D_245REMARK 620 3 XLS D 397   O4   80.7  88.8                                        
+-XLS_D_397REMARK 620 4 ASP D 292   OD2 159.6 103.0  85.8                                  
+-ASP_D_292REMARK 620 5 XLS D 397   O2   79.5 166.1  78.9  82.9                            
+-XLS_D_397REMARK 620 6 GLU D 217   OE1  96.8 105.7 165.3  92.3  86.4                      
+-GLU_D_217REMARK 620 1 GLU D 217   OE2                                                    
+-GLU_D_217REMARK 620 2 HIS D 220   NE2  71.7                                              
+-HIS_D_220REMARK 620 3 ASP D 255   OD1 112.4 111.6                                        
+-ASP_D_255REMARK 620 4 ASP D 255   OD2 144.1  84.0  52.7                                  
+-ASP_D_255REMARK 620 5 HOH D 549   O   100.2 104.6 137.0 111.4                            
+-HOH_D_549REMARK 620 6 ASP D 257   OD1  94.6 165.3  68.1 105.7  82.5                      
+-ASP_D_257REMARK 620 1 ASP A 292   OD2                                                    
+-ASP_A_292REMARK 620 2 GLU A 217   OE1  86.2                                              
+-GLU_A_217
