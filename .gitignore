@@ -8,6 +8,6 @@ __pycache__/
 
 # OUR STUFF
 data/PDB
-
+sequences
 src/obsolete
 
