@@ -11,26 +11,15 @@ import make_http_requests as mhr
 import textwrap
 from collections import defaultdict
 
-SEQ_DIR = "../data/sequences/"
+SEQ_DIR = "../data/uniprot/"
 DATA_DIR = "../data/"
 pdblist = PDBList()
 
-# entry_list = pdblist.get_all_entries()
-## pdblist.download_entire_pdb(file_format='pdb')
 
-# with open('../data/pdb_entries.txt', 'w') as filehandle:
-#     filehandle.write("\n".join(entry_list))
-# for pdb_id in entry_list:   
-#     pdb_id = pdb_id.strip()
-#     pdblist.retrieve_pdb_file(pdb_id,file_format='pdb',pdir='../data/PDB', overwrite=False)
-#     with open('../data/PDB/pdb/'+pdb_id+'.ent') as filehandle:
-#         for line in filehandle:
-
-
-pdb_id = '830c copy'
+pdb_id = '2ga6'
 annotations = defaultdict(list)
 URL = 'https://www.uniprot.org/uniprot/'
-# pdblist.retrieve_pdb_file(pdb_id,file_format='pdb',pdir=DATA_DIR+'PDB', overwrite=False)#download pdb file
+pdblist.retrieve_pdb_file(pdb_id,file_format='pdb',pdir='../data/PDB', overwrite=False)#download pdb file
 with open(DATA_DIR+'PDB/pdb'+pdb_id+'.ent') as filehandle:       
         records = filehandle.readlines()
         uniprot_id = ""
@@ -39,6 +28,7 @@ with open(DATA_DIR+'PDB/pdb'+pdb_id+'.ent') as filehandle:
                 unp_index = line.split()
                 index = unp_index.index('UNP')+1
                 uniprot_id = unp_index[index]
+                print(uniprot_id)
                 if uniprot_id != None:
                     with open(DATA_DIR+"mapping.txt","a") as f:
                         f.write(pdb_id+' '+uniprot_id+'\n')
@@ -62,11 +52,13 @@ FT                   /note="''')[1].split(' ')[0].strip()
             except:
                 a =1
         sequence = response.strip()
+        
         sequence = sequence[(sequence.rindex(';')+1) : (-2)].strip().replace(' ','')
-
+        
         for key, value in annotation_dict.items():
             with open(SEQ_DIR+key+".fasta", "a") as file_handle:
                 sequences = aa.insert_annotations(sequence, value,'#')
                 file_handle.write('>'+pdb_id +' : '+uniprot_id+"\n")
                 file_handle.write(sequences)
-        
+                print(sequences)
+      

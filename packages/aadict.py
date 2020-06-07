@@ -75,7 +75,7 @@ def insert_annotations(string, array,xter):
   new_string = "";
   i = 1;
   for i in range(len(array)):
-    sequence.append(array[i]+1) #seems the regphos position annotation counts from zero
+    sequence.append(array[i]) #seems the uniprot position counts from zero
     new_string += string[sequence[i]:sequence[i+1]]+xter
   new_string += string[sequence[-1]:]+"\n"
   return new_string

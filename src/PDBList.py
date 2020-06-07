@@ -35,10 +35,10 @@ metals_list = ['CS', 'K.', 'LI', 'NA', 'RB', 'BA', 'BE', 'CA', 'MG', 'SR', 'SC',
        'PT', 'AG', 'AU', 'CU', 'GD', 'CD', 'HG', 'TB', 'ZN', 'AL', 'DY', 'GA',
        'IN', 'TL', 'HO', 'PB', 'SN', 'AS', 'BI', 'ER', 'SB', 'LU', 'YB']
 
-pdb_id = '830c copy'
+pdb_id = '3hk9'
 annotations = defaultdict(list)
 
-# pdblist.retrieve_pdb_file(pdb_id,file_format='pdb',pdir='../data/PDB', overwrite=False)#download pdb file
+pdblist.retrieve_pdb_file(pdb_id,file_format='pdb',pdir='../data/PDB', overwrite=False)#download pdb file
 with open('../data/PDB/pdb'+pdb_id+'.ent') as filehandle:
          metals = []
          res = {}
