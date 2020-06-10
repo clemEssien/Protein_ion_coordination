@@ -8,9 +8,10 @@ __pycache__/
 
 # OUR STUFF
 data/PDB
+data/uniprot
+data/uniprotMon-Jun-8-10:28:13-2020.txt.gz
 sequences
 src/obsolete
-data/uniprot
 src/alt.py
 src/functions.py
 src/no_metal_site.txt
