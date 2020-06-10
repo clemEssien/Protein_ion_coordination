@@ -10,4 +10,5 @@ __pycache__/
 data/PDB
 sequences
 src/obsolete
+data/uniprot
 

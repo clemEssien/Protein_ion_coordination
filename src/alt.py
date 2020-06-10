@@ -16,10 +16,8 @@ SEQ_DIR = "../data/uniprot/"
 DATA_DIR = "../data/"
 
 uniprot_ids = []
-with open(SEQ_DIR+"uniprot_ids.txt","r") as file_handle:
+with open(SEQ_DIR+"test.txt","r") as file_handle:
     uniprot_ids = file_handle.read().split('\n')
-
-uniprot_ids = list(set(uniprot_ids))
 
 URL = 'https://www.uniprot.org/uniprot/'
 
@@ -40,11 +38,11 @@ for uniprot_id in uniprot_ids:
 
             if len(annotations) < 1:
                 print("no metal site")
-                with open("no_metal_site.txt", "a") as f:
-                    f.write(uniprot_id+"\n")
+                # with open("no_metal_site.txt", "a") as f:
+                #     f.write(uniprot_id+"\n")
     except:
             with open(SEQ_DIR+"error.txt","a") as f:
-                        f.write(uniprot_id+" no response obtained"+"\n")
+                        print(uniprot_id+" no response obtained"+"\n")
     for annotation in annotations:
                 try:
                         ann = response.split(
@@ -57,7 +55,7 @@ FT                   /note="'''
                     
                 except:
                     with open(SEQ_DIR+"error.txt","a") as f:
-                        f.write(uniprot_id+"\n")
+                        print("error: "+uniprot_id+"\n")
                     
     sequence = response.strip()
 
@@ -71,5 +69,7 @@ FT                   /note="'''
             sequences = aa.insert_annotations(sequence, value,'#')
             sequences = textwrap.fill(sequences,60)
             if len(sequences) > 0:
-                file_handle.write('>'+uniprot_id +"\n")
-                file_handle.write(sequences+"\n")
+                print('>'+uniprot_id +"\n")
+                print(sequences+"\n")
+                # file_handle.write('>'+uniprot_id +"\n")
+                # file_handle.write(sequences+"\n")
