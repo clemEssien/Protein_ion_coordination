@@ -11,4 +11,8 @@ data/PDB
 sequences
 src/obsolete
 data/uniprot
+src/alt.py
+src/functions.py
+src/no_metal_site.txt
+src/uniprot.txt.gz
 
