@@ -58,18 +58,19 @@ FT                   /note="'''
                 except:
                     with open(SEQ_DIR+"error.txt","a") as f:
                         f.write(uniprot_id+"\n")
-                    
-    sequence = response.strip()
 
-    sequence = sequence[(sequence.rindex(';')+1) : (-2)].strip().replace(' ','')
+    if response:             
+        sequence = response.strip()
 
-    sequences = ''
-    for key, value in annotation_dict.items():
-        print(key)
-        with open(SEQ_DIR+"sequences/"+key+".fasta", "a") as file_handle:
-            sequence = sequence.replace("\n",'')
-            sequences = aa.insert_annotations(sequence, value,'#')
-            sequences = textwrap.fill(sequences,60)
-            if len(sequences) > 0:
-                file_handle.write('>'+uniprot_id +"\n")
-                file_handle.write(sequences+"\n")
+        sequence = sequence[(sequence.rindex(';')+1) : (-2)].strip().replace(' ','')
+
+        sequences = ''
+        for key, value in annotation_dict.items():
+            print(key)
+            with open(SEQ_DIR+"sequences/"+key+".fasta", "a") as file_handle:
+                sequence = sequence.replace("\n",'')
+                sequences = aa.insert_annotations(sequence, value,'#')
+                sequences = textwrap.fill(sequences,60)
+                if len(sequences) > 0:
+                    file_handle.write('>'+uniprot_id +"\n")
+                    file_handle.write(sequences+"\n")
