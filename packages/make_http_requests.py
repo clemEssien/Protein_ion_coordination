@@ -28,10 +28,10 @@ def make_request(url):
     t0 = time.time()
     request = None;
     try:
-        time.sleep(2)
+        time.sleep(1)
         request = requests.get(url=url)
     except Exception as x:
-        time.sleep(2)
+        time.sleep(1)
         print('request failed :(', x.__class__.__name__)
     else:
         print('request is successful', request.status_code)
