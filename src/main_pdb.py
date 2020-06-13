@@ -18,7 +18,7 @@ DATA_DIR = "../data/"
 
 
 pdb_ids = []
-with open(SEQ_DIR+"pdb_ids.txt","r") as file_handle:
+with open(SEQ_DIR+"pdb_entries.txt","r") as file_handle:
     pdb_ids = file_handle.read().split('\n')
 
 pdb_ids = list(set(pdb_ids))
