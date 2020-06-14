@@ -28,25 +28,25 @@ if len(records) > 0:
             if 'FT   METAL           ' in record:
                 annotation_text = record.split('FT   METAL           ')
                 annotation_dict = defaultdict(list)
-                
+                uniprot_id = record.split('AC   ')[1].split(';')[0]
+                print("processing...."+uniprot_id)
                 for i in range(1,len(annotation_text)):
                     annotation = int(annotation_text[i].split('FT   METAL           ')[0].split("\n")[0])
                     metal = annotation_text[i].split(str(annotation)+'''
 FT                   /note="''')[1].split('"')[0].split(';')[0]
                     annotation_dict[metal].append(annotation)
-                print((annotation_dict))
+                    
 
                 sequence = annotation_text[i].strip()
                 sequence = sequence[(sequence.rindex(';')+1) : (-2)].strip().replace(' ','')
 
                 sequences = ''
                 for key, value in annotation_dict.items():
-                    # print(key)
-                    # with open(SEQ_DIR+"sequences/"+key+".fasta", "a") as file_handle:
-                    sequence = sequence.replace("\n",'')
-                    sequences = aa.insert_annotations(sequence, value,'#')
-                    sequences = textwrap.fill(sequences,60)
-                    if len(sequences) > 0:
-                        #print('>'+uniprot_id +"\n")
-                        print(sequences+"\n")
+                    with open(SEQ_DIR+"current_sequences/"+key+".fasta", "a") as file_handle:
+                        sequence = sequence.replace("\n",'')
+                        sequences = aa.insert_annotations(sequence, value,'#')
+                        sequences = textwrap.fill(sequences,60)
+                        if len(sequences) > 0:
+                            file_handle.write('>'+uniprot_id +"\n")
+                            file_handle.write(sequences+"\n")
 
